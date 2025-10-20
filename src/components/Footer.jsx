@@ -5,7 +5,7 @@ import { RiTailwindCssFill } from 'react-icons/ri'
 
 const Footer = () => {
   return (
-        <div className="w-full pt-15 mt-15 bg-gray-50 border-t-1 border-gray-300">
+        <div className="w-full pt-15 mt-15  border-t-1 border-gray-300 dark:bg-black dark:border-gray-500">
       <div className="max-w-6xl mx-auto py-10">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6 md:gap-0">
           {/* Left side (name + role) */}
@@ -54,7 +54,7 @@ const Footer = () => {
             {/* Instagram */}
             <div
               className="w-9 h-12 flex items-center justify-center rounded-md
-                  bg-white text-[#1193d4] border border-gray-300 
+                  bg-white dark:bg-black text-[#1193d4] border border-gray-300 dark:border-gray-500 
                  hover:bg-[#1193d4] hover:text-white transition-all duration-300 
                  shadow-sm hover:shadow-md cursor-pointer"
             >
@@ -63,7 +63,7 @@ const Footer = () => {
             {/* GitHub */}
             <div
               className="w-9 h-12 flex items-center justify-center rounded-md
-                  bg-white text-[#1193d4] border border-gray-300 
+                  bg-white dark:bg-black text-[#1193d4] border border-gray-300 dark:border-gray-500 
                  hover:bg-[#1193d4] hover:text-white transition-all duration-300 
                  shadow-sm hover:shadow-md cursor-pointer"
             >
@@ -72,7 +72,7 @@ const Footer = () => {
             {/* LinkedIn */}
             <div
               className="w-9 h-12 flex items-center justify-center rounded-md
-                  bg-white text-[#1193d4] border border-gray-300 
+                  bg-white dark:bg-black text-[#1193d4] border border-gray-300 dark:border-gray-500 
                  hover:bg-[#1193d4] hover:text-white transition-all duration-300 
                  shadow-sm hover:shadow-md cursor-pointer"
             >
@@ -81,7 +81,7 @@ const Footer = () => {
             {/* Twitter */}
             <div
               className="w-9 h-12 flex items-center justify-center rounded-md
-                  bg-white text-[#1193d4] border border-gray-300 
+                  bg-white dark:bg-black text-[#1193d4] border border-gray-300 dark:border-gray-500 
                  hover:bg-[#1193d4] hover:text-white transition-all duration-300 
                  shadow-sm hover:shadow-md cursor-pointer"
             >
@@ -90,7 +90,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left gap-3 md:gap-0 pt-[30px] pb-4 mt-[30px] border-t border-gray-500">
+        <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left gap-3 md:gap-0 pt-[30px] pb-4 mt-[30px] border-t border-gray-300 dark:border-gray-500">
           <p className="text-gray-500 text-[12px]">
             © 2025 Muhammad Noman. All rights reserved.
           </p>
