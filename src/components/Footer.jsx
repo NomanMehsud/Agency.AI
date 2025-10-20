@@ -24,7 +24,7 @@ const Footer = () => {
           {/* Navigation links */}
           <nav className="flex flex-wrap justify-center md:justify-start gap-4 md:gap-7 mt-4 md:mt-0">
             <a
-              href="#home"
+              href="#"
               className="text-gray-400 text-sm hover:text-[#00abf0] transition-colors duration-300"
             >
               Home
@@ -36,16 +36,16 @@ const Footer = () => {
               Services
             </a>
             <a
-              href="#skills"
+              href="#our-work"
               className="text-gray-400 text-sm hover:text-[#00abf0] transition-colors duration-300"
             >
               Our Works
             </a>
             <a
-              href="#conatact"
+              href="#contact-us"
               className="text-gray-400 text-sm hover:text-[#00abf0] transition-colors duration-300"
             >
-              Conatact
+              Contact
             </a>
           </nav>
 
